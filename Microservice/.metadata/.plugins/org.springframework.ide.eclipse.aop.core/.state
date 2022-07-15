@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="apigateway"/>
+<aop-project name="e_servers"/>
+<aop-project name="contact_service"/>
+<aop-project name="user_services"/>
+</aop-reference-model>

@@ -1,0 +1,38 @@
+package com.user.service;
+
+
+
+import java.util.List;
+import java.util.Vector;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+import org.springframework.stereotype.Service;
+
+import com.user.entity.User;
+
+
+
+@Service
+public class UserServiceImpl implements UserService {
+
+ 
+	
+	 
+	  
+	
+	
+	private Object list1;
+
+	@Override
+	public User getUser(Long id) {
+		 List<User> list = new ArrayList<>();
+		 list.add(101L," ","  ");
+		return  (User) ((List) this.list).stream().filter(user -> ((User) user).getUserId().equals(id)).findAny().orElse(null);
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,32 @@
+package com.contact.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.contact.entity.Contact;
+
+
+public class ContactServiceImpl implements ContactService{
+	
+	
+      Contact c1 = new Contact();
+	 
+      Contact c2 = new Contact();
+	  
+	
+
+	@Override
+	public List<Contact> getContactsOfUser(Long userId) {
+		
+		 List<Contact> list = new ArrayList<>();
+		  list.add(c1);
+		  list.add(c2);
+		  return null;
+	}
+	
+	
+	
+	
+	
+
+}

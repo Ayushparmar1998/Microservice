@@ -1,0 +1,20 @@
+package com.user.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.user.entity.User;
+
+public class UserServiceImpl implements UserService {
+
+	
+	ArrayList<User> li = new ArrayList<User>();
+	li.
+	
+	
+	
+	public User getUser(Long id) {
+		return null;
+	}
+
+}

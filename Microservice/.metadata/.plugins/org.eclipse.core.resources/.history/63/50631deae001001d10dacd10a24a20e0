@@ -1,0 +1,37 @@
+package com.user.service;
+
+
+
+import java.util.List;
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Service;
+
+import com.user.entity.User;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	User u = new User(1L,"ayush","7888888");
+	
+	 List<User> list = new ArrayList<>();
+	
+	
+	    //    static List<String> list = new ArrayList<String>(); 
+	        public static void main(String args[]) {
+	        list.add("One");
+	        list.add("Three");  
+	        list.add("Four");  
+	        }
+	
+	
+	@Override
+	public User getUser(Long id) {
+		return  this.list.stream().filter(user -> user.getUserId().equals(id)).findAny().orElse(null);
+	}
+	
+	
+	
+	
+	
+}
